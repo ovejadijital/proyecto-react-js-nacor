@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <div>
+       <nav className="navcontainer">
+    <a className="link" href='/'>nacorapp</a>
+    <div className="linkscontainer">
+
+    <a className="link" href='/'>nuevo</a>
+    <a className="link" href='/'>mas vendidos</a>
+    <a className="link" href='/'>ofertas</a>
+
     </div>
+
+    <img className="cartwiget" src='https://cdn-icons-png.flaticon.com/512/3144/3144456.png'/>
+    </nav>
+   </div>
   );
 }
 
