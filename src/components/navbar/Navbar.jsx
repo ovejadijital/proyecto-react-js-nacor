@@ -2,6 +2,7 @@ import "./navbar.css"
 import CartWiget from "../CartWidget/CartWidget"
 const Navbar = () => {
 
+    console.log("soy Navbar y me renderice")
 return(
 
     <nav className="navcontainer">
