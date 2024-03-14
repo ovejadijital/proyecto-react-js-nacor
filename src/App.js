@@ -1,15 +1,17 @@
+
 import "./App.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from "./components/navbar/Navbar"
-import ItemListContainer from './components/itemListcontainer/ItemListContainer';
+import NavBar from "./componentes/navbar/NavBar";
+import ItemListContainer from "./componentes/itemListContainer/ItemListContainer";
+import ItemDetailContainer from "./componentes/itemDetailContainer/ItemDetailContainer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
-  const bienvenida= "hola chicos"
-  console.log("soy app y me renderice")
+  
   return (
    <div>
-      
-     <Navbar/>
-     <ItemListContainer greeting= "bienvenidos a mi app" bienvenida={bienvenida}/>
+      <NavBar/>
+      <ItemListContainer greeting={"hola bienvenidos"}/>
+      <ItemDetailContainer/>
    </div>
   );
 }
