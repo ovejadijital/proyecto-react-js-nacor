@@ -1,6 +1,6 @@
 const productos = [
     {
-        id:'1',
+        id:'01',
         name:'random1',
         category:'nuevos',
         description:'un objeto',
@@ -9,7 +9,7 @@ const productos = [
         stock:10
     },
     {
-        id:'2',
+        id:'02',
         name:'random2',
         category:'mas vendidos',
         description:'un objeto',
@@ -17,7 +17,7 @@ const productos = [
         img:'https://picsum.photos/201',
         stock:30
     },{
-        id:'3',
+        id:'03',
         name:'random3',
         category:'en descuento',
         description:'un objeto',
